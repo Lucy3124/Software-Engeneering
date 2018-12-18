@@ -147,4 +147,9 @@ public class Controller {
             return null;
         }
     }
+
+    @RequestMapping("toIndex")
+    public String toIndex() {
+        return "index";
+    }
 }
